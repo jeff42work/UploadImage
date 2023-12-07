@@ -1,18 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Demo />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Demo from './components/Demo.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Demo
+  },
+  mounted() {
+    // const script = document.createElement('script');
+    // script.src = 'https://kit.fontawesome.com/43263daed0.js';
+    // script.crossOrigin = 'anonymous';
+    // document.head.appendChild(script);
+  },
 }
 </script>
 
