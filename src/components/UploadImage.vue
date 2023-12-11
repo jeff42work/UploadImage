@@ -53,7 +53,7 @@
 
 <script src="./UploadImage.js"></script>
 
-<style scoped>
+<style>
 .image-blank {
   border: 1px solid lightgray;
   border-radius: 5px;

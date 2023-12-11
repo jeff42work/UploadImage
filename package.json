@@ -1,6 +1,6 @@
 {
   "name": "upload-image",
-  "version": "0.1.1",
+  "version": "0.1.9",
   "main": "dist/upload-image.common.js",
   "private": false,
   "author": "Jeff <jeff42work@gmail.com>",

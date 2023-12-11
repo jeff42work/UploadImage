@@ -1,5 +1,5 @@
 // src/components/index.js
-import UploadScreenshotModal from './UploadScreenshotModal.vue'
+import UploadImage from './UploadImage.vue'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -10,8 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
-UploadScreenshotModal.install = function (Vue) {
-    Vue.component('upload-screenshot-modal', UploadScreenshotModal)
+UploadImage.install = function (Vue) {
+    Vue.component('upload-image', UploadImage)
 
     /* add icons to the library */
     library.add(fas)
@@ -20,4 +20,4 @@ UploadScreenshotModal.install = function (Vue) {
     Vue.component('font-awesome-icon', FontAwesomeIcon)
 }
 
-export default UploadScreenshotModal
+export default UploadImage
