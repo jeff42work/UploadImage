@@ -1,24 +1,23 @@
-# upload-image
+# SimpleStep
 
-## Project setup
+## Installation
+To install the upload-image into an existing project, use the npm CLI
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install upload-image
 ```
 
-### Compiles and minifies for production
+After installation, you can import the component into your project.
 ```
-npm run build
+import UploadImage from 'upload-image'
+
+Vue.use(UploadImage);
+
+<upload-image />
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Goals
+The primary goal of this library is to provide reusable upload-image component.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Demo Page
+See [Demo Page](https://jeff42work.github.io/SimpleStep/).

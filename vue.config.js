@@ -4,6 +4,7 @@ module.exports = defineConfig({
   publicPath: './',
   devServer: {
     port: 8600,
-  }
+  },
+  css: { extract: false },
 
 })

@@ -2,6 +2,8 @@ import EXIF from "./ImgProcess/exif.js";
 import "./ImgProcess/heic2any.js";
 import CGImg from "./ImgProcess/CGImageDoc.min.js";
 
+// import '@/assets/css/dialogStyles.css';
+
 export default {
   name: "OCRModal",
   props: ["showImgProcessModal", "imgProcessModalSrc"],
